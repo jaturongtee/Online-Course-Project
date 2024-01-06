@@ -1,0 +1,48 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.allcouseslistBox {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.card {
+    height: 45vh;
+}
+
+.cardCategory {
+    padding: 10px;
+}
+
+.cardinfo {
+    padding: 10px;
+}
+
+.openbtn {
+    margin-top: -1px;
+}
+
+@media screen and (max-width: 768px) {
+    .allcouseslistBox {
+        color: white;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .allcouseslistBox {
+        color: white;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,97 @@
+    * {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .recommendbox {
+        padding-bottom: 10vh;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+    }
+
+    .card {
+        background-color: rgb(33, 43, 54);
+        height: 35vh;
+        width: 25vh;
+        text-align: center;
+        margin-top: 10vh;
+        border-radius: 10px;
+        margin: 50px;
+    }
+
+    .cardimg img {
+        height: 18vh;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .openbtn {
+        margin-top: 30px;
+    }
+
+    .openbtn button {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(255, 192, 0);
+        cursor: pointer;
+    }
+
+    .openbtn button:hover {
+        background-color:rgb(228, 172, 4) ;
+    }
+
+    .cardtitle {
+        margin-top: 10px;
+    }
+
+    .cardinfo {
+        margin-top: 10px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .cardbox {
+        display: flex;
+        margin-left: 20vw;
+    }
+
+    @media screen and (max-width: 768px) {
+        .recommendbox {
+            padding-bottom: 10vh;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+        }
+
+    }
+
+    @media screen and (max-width: 390px) {
+        .recommendbox {
+            padding-bottom: 10vh;
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+
+        .cardinfo {
+            margin-top: -1px;
+        }
+        .cardtitle {
+            margin-top: -1px;
+        }
+    
+        .cardinfo {
+            margin-top: -1px;
+        }
+    
+        .title {
+            text-align: center;
+        }
+    
+    }

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+.courseimage {
+    display: flex;
+    justify-content: center;
+    margin: auto
+}
+
+.courseimage img {
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+.coursetitle {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.coursetitle h3 {
+font-size: 80px;
+}
+
+.courseCategory {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.courseCategory p {
+    font-size: 50px;
+}
+
+.coursedescription {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.coursedescription p {
+    font-size: 20px;
+}
+
+.lessonintro {
+    margin-left: 180px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.lessonintro p {
+    font-size: 20px;
+}
+
+.lesson {
+    background-color: rgb(84, 84, 84);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80px;
+    border-radius: 10px;
+    margin: auto;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    border: solid black 1px;
+}
+
+.lesson p {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.expandicon {
+    padding-top: 15px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 100px;
+}
+
+.coursemainbox{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+    .lessonintro {
+        margin-left: 130px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .coursedescription p {
+        font-size: 19px;
+    }
+
+    .lessonintro {
+        margin-left: 60px;
+    }
+
+    .lesson p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .coursedescription p {
+        font-size: 19px;
+    }
+
+    .coursetitle h3 {
+        font-size: 50px;
+        }
+
+
+    .coursetitle {
+        margin-top: -40px;
+    }
+        
+    .courseimage img {
+        width: 300px;
+        border-radius: 10px;
+    
+    }
+
+    .courseCategory p {
+        font-size: 30px;
+    }
+
+    .lessonintro {
+        margin-left: 30px;
+    }
+
+    .lesson  {
+     text-align: center;
+    }
+
+
+    .lesson p {
+        font-size: 15px;
+        margin-right: -60px;
+        margin-top: 30px;
+    }
+
+    .expandicon {
+        padding-top: 15px;
+        cursor: pointer;
+        margin-left: 60px;
+    }
+}
