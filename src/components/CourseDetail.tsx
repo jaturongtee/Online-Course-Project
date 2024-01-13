@@ -8,46 +8,17 @@ import LessonData from "./LessonData";
 
 
 interface CourseDetailProps {
-  category: string;
-  description: string;
   id: number;
   name: string;
+  description: string;
+  category: string;
+  
 }
 
 const CourseDetail = () => {
   const { id } = useParams<{ id: string }>();
   const [loading, setLoading] = useState<boolean>(true);
-  const [courseDetail, setCourseDetail] = useState<CourseDetailProps | null>([
-    {
-      "id": 1,
-      "name": "Intro to Python",
-      "description":
-      "Learn the basics of Python, a popular programming language for both beginners and experts.",
-      "category": "Programming Fundamentals"
-    },
-    {
-      "id": 2,
-      "name": "Advanced JavaScript",
-      "description":
-      "Take your JavaScript skills to the next level with this advanced course.",
-      "category": "Web Development"
-    },
-    {
-      "id": 3,
-      "name": "Machine Learning with TensorFlow",
-      "description":
-      "Learn how to build machine learning models using the popular TensorFlow library.",
-      "category": "Machine Learning"
-    },
-    {
-      "id": 4,
-      "name": "Data Science with R",
-      "description":
-      "Explore the world of data science using the R programming language.",
-      "category": "Data Science"
-    },
-  ]
-  );
+  const [courseDetail, setCourseDetail] = useState<CourseDetailProps| null>(null);
 
   useEffect(() => {
     axios
