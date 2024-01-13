@@ -1,4 +1,3 @@
-import React from 'react'
 import { Allcourses } from '../components/Allcourses'
 
 const Allcousepage = () => {
