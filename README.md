@@ -58,3 +58,6 @@ If you encounter any issues or have suggestions, please open an issue on [GitHub
 ## License
 
 This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+![Screenshot (35)](https://github.com/jaturongtee/Online-Course-Project/assets/151636545/e0ff2b12-43db-470f-b9bf-a330df3be094)
